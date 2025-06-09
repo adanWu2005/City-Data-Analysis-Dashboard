@@ -75,5 +75,3 @@ CityDataWebApp/
 - If crime data is missing for a city, a warning will be shown below the crime data table.
 - All data is fetched live from public APIs and city-data.com.
 
-## License
-MIT License 
