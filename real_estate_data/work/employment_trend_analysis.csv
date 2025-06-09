@@ -1,0 +1,4 @@
+City,State,County,Start_Employed,End_Employed,Employment_Growth_Pct,Employment_CAGR_Pct,Start_Unemployment_Rate,End_Unemployment_Rate,Unemployment_Change,Composite_Score,Years_Analyzed
+Glendale,AZ,Maricopa County,2117285.0,2196843.0,3.7575479918858354,3.7575479918858345,4.2,3.7,-0.5,4.7575479918858345,1
+Tampa,FL,Hillsborough County,702057.0,724273.0,3.1644154249583725,3.164415424958378,3.2,2.7,-0.5,4.164415424958378,1
+Brooklyn,NY,Kings County,1257067.0,1265883.0,0.7013150452601173,0.7013150452601202,4.0,3.3,-0.7000000000000002,2.1013150452601206,1

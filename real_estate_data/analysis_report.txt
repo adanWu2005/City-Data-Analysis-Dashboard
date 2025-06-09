@@ -1,0 +1,40 @@
+DEMOGRAPHIC AND CRIME DATA ANALYSIS REPORT
+==========================================
+
+1. DEMOGRAPHIC SUMMARY
+-----------------------
+County: Hillsborough County
+  Population: 1,422,278
+  Median Age: 37.2 years
+  Unemployment Rate: 2.7%
+  Employed Population: 724,273
+
+County: Kings County
+  Population: 2,589,974
+  Median Age: 35.2 years
+  Unemployment Rate: 3.3%
+  Employed Population: 1,265,883
+
+County: Maricopa County
+  Population: 4,328,810
+  Median Age: 36.4 years
+  Unemployment Rate: 3.7%
+  Employed Population: 2,196,843
+
+
+2. KEY FINDINGS
+-----------------
+Most Populated: Maricopa County (4,328,810)
+Least Populated: Hillsborough County (1,422,278)
+
+Highest Unemployment: Maricopa County (3.7%)
+Lowest Unemployment: Hillsborough County (2.7%)
+
+CORRELATION INSIGHTS:
+
+3. OBSERVATIONS
+----------------
+- Population density may influence crime rates in certain areas
+- Economic factors (employment) appear to correlate with crime statistics
+- Age demographics show varying patterns across counties
+- Further analysis recommended to identify causal relationships
