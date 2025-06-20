@@ -2,6 +2,10 @@ import requests
 import time
 import random
 from bs4 import BeautifulSoup
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def get_county_fips_code(state_fips, county_name, census_api_key):
     """
@@ -143,7 +147,8 @@ def convert_input_to_target_areas(input_df):
                         county_name = county_link.get_text().strip()
                         
                         # Get county FIPS code from Census Bureau API
-                        county_fips_code = get_county_fips_code(state_fips_code, county_name, "856e29b65185c3bc832572b45af9ff5e93758ce6")
+                        census_api_key = os.getenv('CENSUS_API_KEY')
+                        county_fips_code = get_county_fips_code(state_fips_code, county_name, census_api_key)
                         
                         print(f"✓ Found: {city}, {state} → {county_name} (FIPS: {state_fips_code}-{county_fips_code})")
                         
